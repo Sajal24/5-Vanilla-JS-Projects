@@ -7,11 +7,62 @@
 body {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
+  width: 100%;
+  height: 100%;
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: larger;
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+  height: 15%;
+}
+
+.heading h2 {
+  display: inline-block;
+  border: 1px solid white;
+  margin: 20px 0;
+}
+
+.givenText {
+  border: 1px solid green;
+  height: 30%;
+  border-width: 4px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.areaToWrite {
+  border: 1px solid green;
+  height: 30%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.allotedTime {
+  margin: 0 auto;
+  border: 1px solid green;
+  height: 15%;
+  width: 20%;
+}
+
+.btn {
+  /* display: inline-block; */
+  border: 1px solid green;
+  height: 10%;
+  width: 10%;
+  /* background-color: black; */
+  color: blueviolet;
+  font-size: larger;
+  margin: 0 auto;
 }
