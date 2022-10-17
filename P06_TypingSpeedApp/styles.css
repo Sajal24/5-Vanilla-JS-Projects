@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,15 +41,41 @@ body {
   background-color: aliceblue;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.givenText p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
 }
 
 .areaToWrite {
   border: 10px solid burlywood;
   height: 30%;
   border-radius: 10px;
-  background-color: aliceblue;
   margin: 0 auto;
   width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputArea {
+  background-color: aliceblue;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  resize: none;
+}
+
+textarea {
+  vertical-align: middle;
 }
 
 .allotedTime {
@@ -72,6 +98,8 @@ body {
   font-size: larger;
   margin: 0 auto;
   font-family: "Permanent Marker", cursive;
+  cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .btn:hover {
