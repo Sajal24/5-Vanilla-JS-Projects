@@ -54,6 +54,7 @@ body {
 
 .areaToWrite {
   border: 10px solid burlywood;
+  background-color: aliceblue;
   height: 30%;
   border-radius: 10px;
   margin: 0 auto;
@@ -72,10 +73,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   resize: none;
-}
-
-textarea {
-  vertical-align: middle;
+  padding: 60px;
 }
 
 .allotedTime {
