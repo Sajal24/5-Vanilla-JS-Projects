@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  background-color: #224870;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,51 +21,57 @@ body {
 }
 
 .heading {
+  font-family: "Pacifico", cursive;
   text-align: center;
-  font-size: larger;
-  font-family: "Roboto Mono", monospace;
-  background-color: black;
+  background-color: #d66ba0;
   color: white;
   height: 15%;
 }
 
 .heading h2 {
+  font-size: 40px;
   display: inline-block;
-  border: 1px solid white;
   margin: 20px 0;
 }
 
 .givenText {
-  border: 1px solid green;
+  border: 5px solid burlywood;
   height: 30%;
-  border-width: 4px;
+  border-radius: 10px;
+  background-color: aliceblue;
   width: 80%;
   margin: 0 auto;
 }
 
 .areaToWrite {
-  border: 1px solid green;
+  border: 10px solid burlywood;
   height: 30%;
+  border-radius: 10px;
+  background-color: aliceblue;
   margin: 0 auto;
   width: 80%;
 }
 
 .allotedTime {
   margin: 0 auto;
-  border: 1px solid green;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  background-color: aliceblue;
   height: 15%;
   width: 20%;
 }
 
 .btn {
   /* display: inline-block; */
-  border: 1px solid green;
+  border: 3px solid green;
   border-radius: 5px;
-  padding: 10px 15px;
-  background-color: rgb(6, 42, 6);
+  background-color: aliceblue;
+  padding: 8px 13px;
+  background-color: #628395;
   color: white;
   font-size: larger;
   margin: 0 auto;
+  font-family: "Permanent Marker", cursive;
 }
 
 .btn:hover {
