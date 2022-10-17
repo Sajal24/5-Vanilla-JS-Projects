@@ -52,7 +52,7 @@ body {
   font-size: 22px;
 }
 
-.areaToWrite {
+#areaToWrite {
   border: 10px solid burlywood;
   background-color: aliceblue;
   height: 30%;
