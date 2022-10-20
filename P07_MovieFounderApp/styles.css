@@ -32,7 +32,8 @@ h1 {
   font-family: "Indie Flower", cursive;
   color: white;
   font-weight: 900;
-  margin-bottom: 50px;
+  margin: 0 10px 50px 10px;
+  padding: 10px;
 }
 
 #searchbar {
