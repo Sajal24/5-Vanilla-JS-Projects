@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your friendly neighbourd password generator</title>
+    <title>Your friendly neighbourhood password generator</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <h1 class="heading">Your friendly neighbourhood password generator</h1>
+
+      <button class="btn">
+        Click me if you want to generate a password that even FBI won't be able
+        to hack
+      </button>
+
+      <div class="slider">
+        <span>easy af boi</span>
+        <input type="range" min="0" max="100" value="0" id="slideryo" />
+        <span>as hard as to crack your mom</span>
+      </div>
+
+      <div class="generated-passwords">
+        <div class="password-1">p1</div>
+        <div class="password-2">p2</div>
+        <div class="password-3">p3</div>
+        <div class="password-4">p4</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
