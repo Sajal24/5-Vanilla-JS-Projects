@@ -8,6 +8,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-color: #485696;
 }
 
 .container {
@@ -18,14 +19,17 @@ body {
 
 .firstContainer {
   border: 2px solid green;
-  width: 35%;
+  width: 32%;
   text-align: center;
   background-color: #485696;
 }
 
 .secondContainer {
-  border: 2px solid red;
-  width: 65%;
+  border: 5px solid green;
+  width: 68%;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
 }
 
 h1 {
@@ -42,20 +46,88 @@ h1 {
 }
 
 #searchbar {
+  background: transparent;
   width: 40%;
   padding: 8px;
   transition: width 0.2s ease-in-out;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  color: white;
 }
 
 #searchbar:focus {
   width: 60%;
 }
 
-h3 {
+.subhead {
   padding: 20px 30px;
   font-family: "Poppins", sans-serif;
 }
 
-.movieContainers {
-  border: 2px solid green;
+.child {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.greater-child {
+  border: 2px solid blue;
+  display: flex;
+  padding: 1rem;
+  width: 550px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.greater-child img {
+  width: 35%;
+}
+
+.details {
+  padding: 0 1rem;
+}
+
+.details h3 {
+  border: 1px solid blue;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  border-bottom: 2px solid rgb(176, 48, 176);
+}
+
+.tagline,
+.rate,
+.release {
+  border: 2px solid pink;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.rating,
+.released {
+  padding: 0 3px;
+}
+
+.overview {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 100px;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .firstContainer {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .secondContainer {
+    width: 100%;
+  }
 }

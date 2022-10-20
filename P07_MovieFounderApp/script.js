@@ -9,9 +9,13 @@ searchedMovie.addEventListener("submit", (e) => {
 
   fetch(url)
     .then((response) => response.json())
-    .then((data) => {
-      for (let i = 0; i < data.results.length; i++) {
-        console.log(data.results[i].title);
-      }
-    });
+    .then((data) => displayMovies(data.results));
+
+  function displayMovies(movies) {
+    console.log(movies[0].title);
+  }
 });
+
+// for (let i = 0; i < data.results.length; i++) {
+//   console.log(data.results[i].title);
+// }
